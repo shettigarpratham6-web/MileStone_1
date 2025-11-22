@@ -7,11 +7,14 @@ import Properties from "../components/react_props";
 export default function Login() {
   return (
     <div className="flex flex-col">
+
       <Properties title="Login Page" text="Login" Img="https://img.freepik.com/premium-photo/dining-black-restaurant-background_87720-45578.jpg" />
+
       <div className="mt-8 flex flex-col lg:flex-row bg-white items-center">
         <div className="w-full lg:w-1/2">
           <img className="w-full" src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fthumb%2F14.jpg&w=3840&q=75" />
         </div>
+
         <div className="bg-white p-5 rounded-xl shadow-lg w-full max-w-md mx-auto mt-6 lg:mt-0">
           <h1 className="text-2xl sm:text-3xl font-bold text-center mb-4 text-gray-800">
             WELCOME BACK

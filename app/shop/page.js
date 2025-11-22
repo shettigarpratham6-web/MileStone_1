@@ -14,7 +14,7 @@ export default function Shop() {
     { img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVNTeF8XDkakPpy3titWXK0IzwGxiVvHTttw&s", name: "chicken nuggets", price: "$3" },
     { img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwaF6-1Auf1DuOXo9FhalxTrx1j-BnkoOu4A&s", name: "chicken biryani", price: "$4" },
     { img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQK9xjuj3qvEApebuLzCsVF3a05QYjUoIwNA&s", name: "chicken alfredo", price: "$5" },
-    { img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd7c44FUddbZoN_Hw0ylhvLnScHZbFFU3aQA&s", name: "burger king chicken sandwich", price: "$2" }
+    { img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd7c44FUddbZoN_Hw0ylhvLnScHZbFFU3aQA&s", name: "chicken sandwich", price: "$2" }
   ];
   return (
     <div className="flex flex-col bg-white ">
@@ -40,19 +40,19 @@ export default function Shop() {
           {shopitems.map((item, index) => (
             <div
               key={index}
-              className="group p-5 bg-white border border-gray-200 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 w-full sm:w-64 flex flex-col items-center text-center"
+              className=" p-5 bg-white border border-gray-200 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 w-full sm:w-64 flex flex-col items-center text-center"
             >
               <img
                 src={item.img}
                 alt={item.name}
-                className="w-full h-48 object-cover rounded-xl mb-4 group-hover:scale-105 transition-transform duration-300"
+                className="w-full h-48 object-cover rounded-xl mb-4 hover:scale-105 transition-transform duration-300"
               />
-              <p className="font-semibold text-lg text-gray-900 group-hover:text-blue-600 transition-colors duration-300">
+              <p className="font-semibold text-lg text-gray-900 hover:text-blue-600 transition-colors duration-300">
                 {item.name}
               </p>
               <p className="text-gray-600 text-sm mb-4">₹{item.price}</p>
               <button
-                className="px-6 py-2.5  text-black font-semibold rounded-lg shadow-md transition-colors duration-300 hover:bg-[#826a45] hover:text-white"
+                className="px-6 py-2.5 text-black font-semibold rounded-lg shadow-md transition-colors duration-300 hover:bg-[#826a45] hover:text-white"
                 onClick={handleClick}
               >
                 Add to Cart

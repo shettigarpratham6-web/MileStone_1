@@ -18,7 +18,7 @@ export default function Cheflist() {
             </div>
           </div>
           <div className="absolute top-[265px] w-[330px] text-center text-white bg-[#826a45] h-[72px] 
-                      z-20 transition-transform duration-300 hover:scale-110 rounded-md">
+                       transition-transform duration-300 hover:scale-110 rounded-md">
             <h2 className="text-lg font-semibold leading-tight mt-2">Alexander Petllo</h2>
             <p className="text-xs tracking-wide">ASSISTANT CHEF</p>
           </div>
@@ -33,7 +33,7 @@ export default function Cheflist() {
             </div>
           </div>
           <div className="absolute top-[265px] w-[330px] text-center text-white bg-[#826a45] h-[72px]
-                      z-20 transition-transform duration-300 hover:scale-110 rounded-md">
+                       transition-transform duration-300 hover:scale-110 rounded-md">
             <h2 className="text-lg font-semibold leading-tight mt-2">Mendia Juxef</h2>
             <p className="text-xs tracking-wide">BURGER KING</p>
           </div>

@@ -2,17 +2,17 @@
 import React from "react";
 export default function Video() {
   return (
-    <div className="relative w-full  bg-white">
-      <div className="relative ml-6 mt-10 mb-10 w-1/2 h-96 ">
+    <div className="relative w-full h-screen  bg-white">
+      <div className="relative ml-6  mb-10 w-1/2 h-96 ">
         <iframe
-          className="absolute object-cover w-full h-full"
+          className="absolute object-cover w-full h-full mt-8"
           src="https://www.youtube.com/embed/F3zw1Gvn4Mk"
           title="Mr Fox Restaurant Promo Video"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         />
-        <div className="-mr-30 absolute top-10 right-[-250px] w-[420px] bg-white border-2 shadow-xl p-6 flex flex-col gap-4 ">
+        <div className="-mr-20 absolute top-10 right-[-250px] w-[420px] bg-white border-2 shadow-xl p-6 flex flex-col gap-4 ">
           <p className="text-4xl font-semibold text-black">Opening Hours</p>
           <p className="font-serif text-black">
             A relaxing and pleasant atmosphere, good jazz, dinner,

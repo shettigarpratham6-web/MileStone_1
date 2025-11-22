@@ -27,7 +27,7 @@ export default function Menu() {
           <div key={index} className="transform transition duration-500 hover:-translate-y-6 hover:scale-105 ">
             <img className="object-cover w-full h-52 rounded-lg" src={item.img} alt={item.name} />
             <p className="mt-2 dark:text-amber-50">{item.name}</p>
-            <p className="text-[#7b5a30]">${item.price.toFixed(2)}</p>
+            <p className="text-[#7b5a30]">${item.price}</p>
           </div>
         ))}
       </div>
