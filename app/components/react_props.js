@@ -8,7 +8,7 @@ export default function Properties({ title, text, Img }) {
                 <img
                     src={Img}
                     alt="Restaurant background"
-                    className="w-full h-full object-cover"
+                    className="absolute inset-0 w-full h-full object-cover"
                 />
                 <div className="absolute top-0 left-0 w-full h-full bg-black/60 text-white flex flex-col">
                     <div className="bg-[#7b5a30] w-full  md:flex justify-between items-center px-4 sm:px-12 py-2 text-xs sm:text-sm">
@@ -70,11 +70,11 @@ export default function Properties({ title, text, Img }) {
                             </button>
                         </div>
                     </div>
-                    <div className="flex flex-col justify-center items-center flex-grow px-4 text-center">
-                        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mt-20">
+                    <div className="flex flex-col justify-center items-center flex-grow px-4 text-center ">
+                        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mt-0 sm:mt-20">
                             {title}
                         </h1>
-                        <div className="flex items-center gap-2 mt-4 text-base sm:text-lg sm:gap-5">
+                        <div className="flex items-center gap-2  mt-4 text-base sm:text-lg sm:gap-5">
                             <Link href="/" className="text-white/80">Home</Link>
                             
                             <span className="text-yellow-400 font-semibold">{text}</span>

@@ -12,7 +12,7 @@ export default function Video() {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         />
-        <div className="-mr-20 absolute top-10 right-[-250px] w-[420px] bg-white border-2 shadow-xl p-6 flex flex-col gap-4 ">
+        <div className="-mr-20 absolute top-1 sm:top-10 right-[-25px] sm:right-[-250px]  sm:w-[420px] bg-white border-2 shadow-xl p-6 flex flex-col gap-4 ">
           <p className="text-4xl font-semibold text-black">Opening Hours</p>
           <p className="font-serif text-black">
             A relaxing and pleasant atmosphere, good jazz, dinner,

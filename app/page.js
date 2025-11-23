@@ -12,8 +12,9 @@ import Video from "./components/video_and_content";
 export default function Page() {
   return (
     <>
+      <div className="w-full overflow-x-hidden">
       <Back />
-      <Hero />
+      <Hero />   
       <Foodcards />
       <Advertisement/>
       <Addtocart />
@@ -22,6 +23,7 @@ export default function Page() {
       <Cheflist />
       <Footer />
       <Bottom/>
+      </div>
     </>
   );
 }
